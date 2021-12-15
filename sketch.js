@@ -4,10 +4,11 @@ function setup() {
   }
   function draw() {
   background(0);
-  fill (0,0,255);
+  fill (0,255,0);
   circle (random(0, 1920), random(0,1080), 50);
   circle (random(0, 1920), random(0,1080), 100);
   circle (random(0, 1920), random(0,1080), 200);
+    fill (0,0,255);
   circle (random(0, 1920), random(0,1080), 300);
   circle (random(0, 1920), random(0,1080), 50);
   circle (random(0, 1920), random(0,1080), 400);
